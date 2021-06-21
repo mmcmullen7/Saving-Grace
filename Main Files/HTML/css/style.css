@@ -31,8 +31,8 @@ body, html {
     transition: all 0.5s;
 }
 ::selection{
-	background-color: #d82d34;
-	color:#fff;
+	background-color: #fff559;
+	color:#a0f8ee;
 }
 a {
 	color: #797979;
@@ -53,7 +53,7 @@ a {
 a:hover, a:focus {
 	text-decoration: none;
 	outline: none;
-	color:#4f5dec;
+	color:#fff559;
 	-webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -176,8 +176,10 @@ ul{
 }
 .fab-buttons {
 	position:relative;
-    background: #111932;
+    background: #2c3c43;
 	box-shadow:0 5px 20px -4px rgba(0, 0, 0, 0.5215686274509804);
+	color: #fff559;
+	background: #2c3c43;
 	 -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -185,12 +187,14 @@ ul{
     transition: all 0.5s;
 }
 .fab-buttons:hover {
+	color:  #2c3c43;
 	 -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
     -moz-transition: all 0.5s;
     transition: all 0.5s;
-    background: #d82d34;
+    background: #fff559;
+    
 }
 .fab-buttons span {
     width: 100%;
@@ -199,15 +203,23 @@ ul{
 }
 .fab-buttons i,
 .fab-buttons span i {
-    color: #fff;
     transition: .3s;
 }
+
 .fab_btn_btn span i{
-	color:#fff;
 	font-size: 14px
 }
+.fab_btn_btn:hover {
+	color:  #2c3c43;
+	 -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    background: #fff559;
+}
 .fab-buttons span.fab-rotate {
-    background: #111932;
+    background: #2c3c43;
     position: absolute;
     transform: rotate(0deg);
     transition: .3s;
@@ -223,7 +235,7 @@ ul{
 	position:absolute;
 	right: -120px;
     top: 5px;
-	background:#111932;
+	background:#2c3c43;
 	    border-radius: 3px;
 		opacity:0;
 		visibility:hidden;
@@ -237,7 +249,7 @@ ul{
 	content: '';
     border-top: 8px solid transparent;
     border-bottom: 8px solid transparent;
-    border-right: 10px solid #111932;
+    border-right: 10px solid #2c3c43;
     position: absolute;
     left: -10px;
     top: 7px;
@@ -254,13 +266,13 @@ ul{
 }
 .os_share_tool_tips p{
 	font-size:14px;
-	color:#fff;
+	color:#fff559;
 	line-height:19px;
 }
 /*-- os mshare btn End --*/
 /*-- Preloader css start --*/
 #preloader {
-	background-color: #fff;
+	background-color: #2c3c43;
 	bottom: 0;
 	left: 0;
 	position: fixed;
@@ -305,7 +317,7 @@ ul{
 	top:0;
 	left:0;
 	right:0;
-	background:rgba(16,25,50,0.87);
+	background:rgba(44, 60, 67, 0.87);
 	z-index:10000;
 }
 .os_top_header_main_wrapper{
@@ -314,7 +326,7 @@ ul{
 }
 .os_top_header_main_wrapper:after{
 	content:'';
-	background:url('../images/header_img1.png') 50% 0 repeat-y;
+	background:url('../images/background image - header.png') 50% 0 repeat-y;
 	background-position:center 0;
 	background-size:cover;
 	width:100%;
@@ -347,30 +359,39 @@ ul{
     line-height: 20px;
     letter-spacing: 1px;
     padding: 25px 10px;
-    color: rgba(255,255,255,0.7);
+    color: rgba(160,248,238,0.7);
 	position:relative;
 }
 .dropdown-wrapper:hover > .menu-button{
-	color:#4f5dec;
+	color:#A0F8EE;
+	opacity:1;
+	transform: perspective(5em) rotateX(0deg);
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
 }
 .hs_main_menu .drop-menu a{
 	padding: .75em 1em;
 	padding-left: 20px;
-    text-align: left;
+    text-align: center;
 }
 .hs_main_menu a:hover {
-      color: #fff;
-	  -webkit-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    transition: all 0.5s;
+      color: #bdbdbd;
+    transform-origin: top;
+    transform: perspective(5em) rotateX(-90deg);
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
 }
 .dropdown-wrapper > .menu-button{
 	position:relative;
 }
 .dropdown-wrapper:hover > .menu-button{
-	color:#fff;
+	color:#fff559;
 }
 
 /*====================================
@@ -400,11 +421,12 @@ ul{
 	-moz-transition: all 0.5s;
 	transition: all 0.5s;
 }
+
 .drop-menu > .menu-button {
   height: 100%;
   transition: transform .4s;
   transform: translateY(-300%);
-  background: #ffffff;
+  background: #bdbdbd;
       float: left;
     width: 100%;
 text-transform:capitalize;	
@@ -428,7 +450,7 @@ text-transform:capitalize;
   opacity: 1;
       top: 100%;
   z-index: 1000;
-      background: #fff;
+      background: #bdbdbd;
 	  transform: perspective(5em) rotateX(0deg);
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
@@ -761,7 +783,8 @@ text-transform:capitalize;
 .hs_logo_wrapper{
 	float:left;
 	width:auto;
-	    padding-top: 23px;
+	    padding-top: 6px;
+	    padding-bottom: 23px;
 }
 .hs_logo_wrapper{
 	float:left;
@@ -782,7 +805,30 @@ text-transform:capitalize;
 	right:0;
 	z-index: 10;
 	top:100%;
-	background:#fff;
+	background:#bdbdbd;
+	-webkit-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.10);
+    -moz-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.10);
+    -o-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.10);
+    -ms-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.10);
+	padding:30px;
+	opacity:0;
+	transform-origin: top;
+    transform: perspective(5em) rotateX(-90deg);
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.drop_mega_menu_2{
+	position:absolute;
+	width:40%;
+	left:1;
+	right:1;
+	z-index: 10;
+	top:100%;
+	background:#bdbdbd;
 	-webkit-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.10);
     -moz-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.10);
     -o-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.10);
@@ -807,6 +853,15 @@ text-transform:capitalize;
 	-moz-transition: all 0.5s;
 	transition: all 0.5s;
 }
+.dropdown-wrapper:hover .drop_mega_menu_2{
+	opacity:1;
+	transform: perspective(5em) rotateX(0deg);
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
 .dropdown-wrapper{
 	padding-bottom:15px;
 }
@@ -822,15 +877,15 @@ text-transform:capitalize;
     font-weight: 400;
 	line-height:47px;
 	text-align:center;
-	    color: #ffffff;
-    background: #d82d34;
+	    color: #272727;
+    background: #FFF559;
 	    -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     border-radius: 50px;
 }
 .os_ordr_btn a:hover{
-	background:#fff;
-	color:#d82d34;
+	background:#2c3c43;
+	color:#FFF559;
 }
 .menu-button i{
 	position:relative;
@@ -860,8 +915,8 @@ text-transform:capitalize;
     padding: 3px;
     margin-left: 3px;
     margin-top: -5px;
-    color: #ffffff;
-    background: #d82d34;
+    color: #A0F8EE;
+    background: #2c3c43;
     text-transform: uppercase;
     /* float: left; */
     position: absolute;
@@ -881,10 +936,10 @@ text-transform:capitalize;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 2px;
-	color:#797979;
+	color:#A0F8EE;
 }
 .os_menu_index_img p a:hover{
-	color:#111;
+	color:#FFF559;
 }
 @keyframes movebounce {
   0% {
@@ -911,7 +966,7 @@ text-transform:capitalize;
 	padding:8px 20px !important;
 }
 .sub_menu:hover{
-	color:#111 !important;
+	color:#a0f8ee !important;
 }
 .os_mega_menu_blog{
 	text-align:left;
@@ -967,7 +1022,7 @@ text-transform:capitalize;
     font-weight: 600;
     font-style: normal;
     line-height: 68px;
-    color: #ffffff;
+    color: #bdbdbd;
 	margin-top:40px;
 }
 .os_banner_outset_text h4{
@@ -1958,7 +2013,7 @@ text-transform:capitalize;
 	    color: rgba(255, 255, 255, 0.64);
 }
 .os_bottom_footer_cont p a{
-	color:#d82d34;
+	color:#fff559;
 }
 /*-- os bottom footer End --*/
 /*****************-- os About Us css Start --****************************/
@@ -5048,7 +5103,7 @@ keyframes movebounce {
 	border-top:1px solid #eee !important;
 }
 .house_toggle svg{
-	fill:#fe625e;
+	fill:#FFF559;
 }
 .os_top_index5_header_main_wrapper .menu_fixed{
 	background:#fff;
