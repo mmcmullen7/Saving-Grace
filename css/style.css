@@ -1212,7 +1212,7 @@ text-transform:capitalize;
     transition: all 0.5s;
 }
 .os_parts_slider_img img{
-	width:auto !important;
+	width:180px !important;
 	opacity:0.5;
 	-webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1);
@@ -1286,7 +1286,7 @@ text-transform:capitalize;
 	    position: absolute;
     width: 81%;
     height: 301px;
-    background: #111;
+    background: #bdbdbd;
     left: 0;
     right: 0;
     bottom: 76px;
@@ -9776,9 +9776,6 @@ ul.breadcrumb li a {
 }
 .contect_form2 .apply_btn{
 	margin: 0px;
-}
-.contact_form2 input[type="submit"].apply_btn, input[type="reset"].apply_btn, input[type="button"].apply_btn {
-    width: 100%;
 }
 .locatiom_info p{
 	margin: 20px 0;
