@@ -9777,6 +9777,9 @@ ul.breadcrumb li a {
 .contect_form2 .apply_btn{
 	margin: 0px;
 }
+.contact_form2 input[type="submit"].apply_btn, input[type="reset"].apply_btn, input[type="button"].apply_btn {
+    width: 100%;
+}
 .locatiom_info p{
 	margin: 20px 0;
 }

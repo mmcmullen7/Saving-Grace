@@ -557,7 +557,7 @@ Version: 1.0.0
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-sm-12">
-					<form>
+					<form method="post" action="contact-form-process.php">
 						<h5>DROP US A LINE</h5>
 						<div class="contect_form2">
 							<label>Full Name</label>
@@ -572,7 +572,8 @@ Version: 1.0.0
 							<textarea rows="6" name="message" placeholder="" class="require"></textarea>
 						</div>
 						<div class="contect_form2">
-							<div class="apply_btn float_left">	<a href="#">Send Now</a>
+							<div class="apply_btn float_left">	
+								<button type= "submit">Send Now</button>
 							</div>
 						</div>
 					</form>
