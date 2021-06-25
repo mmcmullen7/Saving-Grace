@@ -6534,6 +6534,9 @@ keyframes movebounce {
 	margin: 20px 0px 25px 0px;
 	text-transform: capitalize;
 }
+.os_inner_hello_left_wrapper h1 span{
+	color: #fff559;
+}
 .os_inner_hello_wrapper p{
 	font-weight: 300;
 	font-size: 16px;
