@@ -1776,7 +1776,7 @@ text-transform:capitalize;
 .os_customer_slider_wrapper{
 	padding-top:100px;
 	padding-bottom:159px;
-	background:#eeeeee;
+	background:#bdbdbd;
 }
 .os_customer_slider_main_wrapper{
 	margin-top:60px;
@@ -5244,7 +5244,7 @@ keyframes movebounce {
 }
 .os_inner_mgmt_text span i{
     text-align: center;
-    color: #ff512f;
+    color: #2c3c43;
     margin-bottom: 25px;
 }
 .os_inner_mgmt_text span i:before{
@@ -5253,7 +5253,7 @@ keyframes movebounce {
 .os_inner_mgmt_text h3{
 	font-size: 18px;
     line-height: 22px;
-    color: #222222;
+    color: #2c3c43;
     font-weight: 500;
 	padding-top:40px;
 	-webkit-transition: all 0.5s;
@@ -5285,7 +5285,7 @@ keyframes movebounce {
 }
 .os_inner_mgmt_text:hover .os_inner_btn_wrapper a,.os_inner_mgmt_text:hover span i,
 .os_inner_mgmt_text:hover h3{
-		color: #fff;
+		color: #fff559;
 		-webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -5293,10 +5293,10 @@ keyframes movebounce {
     transition: all 0.5s;
 }
 .os_inner_mgmt_text:hover{
-	background-image: url(../images/index6/infoback-full-bg.png);
+	background-image: url(../images/infoback-full-bg.png);
 	background-position:center -30px;
 	background-size:cover;
-	color: #fff;
+	color: #fff559;
 	animation: slideInUp 1.5s;
 	-webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -6514,10 +6514,12 @@ keyframes movebounce {
 }
 /*----os inner footer End----*/
 .os_inner_hello_wrapper{
+	background: #bdbdbd;
 	padding-top:100px;
 	padding-bottom:100px;
 }
 .os_inner_hello_left_wrapper h2{
+	color: #2c3c43;
 	font-weight: 300;
 	font-size: 40px;
 	line-height: 40px;
@@ -6525,6 +6527,7 @@ keyframes movebounce {
 	text-transform: capitalize;
 }
 .os_inner_hello_left_wrapper h1{
+	color: #2c3c43;
 	font-weight: 600;
 	font-size: 40px;
 	line-height: 40px;
@@ -6546,6 +6549,7 @@ keyframes movebounce {
 /*----os inner hello wrapper End----*/
 /*----os inner about slider wrapper Start-----*/
 .os_inner_about_slider_wrapper{
+	background-color: #bdbdbd;
 	padding: 50px 0px;
 }
 .os_abt_slider img{
@@ -6603,7 +6607,7 @@ keyframes movebounce {
 }
 /*----os inner ur team wrapper Start----*/
 .os_inner_ur_team_wrapper{
-	background-color: #eeeeee;
+	background-color: #bdbdbd;
 	padding: 100px 0px 100px;
 }
 .os_inner_title_heading{
@@ -6621,7 +6625,7 @@ keyframes movebounce {
     font-weight: 300;
     font-style: normal;
     line-height: 50px;
-    color: #222222;
+    color: #2c3c43;
     margin-bottom: 25px;
 }
 .os_inner_title_heading h1 span{
@@ -6641,8 +6645,8 @@ keyframes movebounce {
 	margin-top: 25px !important;
 }
 .ur_team_heading_btn .os_inner_btn_wrapper a{
-	background-color: #d82d34 !important;
-	color: #fff;
+	background-color: #fff559;
+	color: #2c3c43;
 	float: right;
 	width:230px;
 	height:55px;
@@ -6653,6 +6657,8 @@ keyframes movebounce {
     border: 1px solid transparent !important;
 }
 .ur_team_heading_btn .os_inner_btn_wrapper a:hover{
+	background-color: #2c3c43;
+	color: #fff559;
     -webkit-box-shadow: 0 3px 6px 1px rgba(0,0,0,.08);
     -moz-box-shadow: 0 3px 6px 1px rgba(0,0,0,.08);
     box-shadow: 0 3px 6px 1px rgba(0,0,0,.08);
@@ -6840,7 +6846,7 @@ keyframes movebounce {
 /*----os inner Our Investors wrapper End----*/
 /*-----os inner customer slider Start-----*/
 .os_awesome_customer_slider_wrapper{
-	background: #fff; 
+	background: #bdbdbd; 
 }
 .os_awesome_customer_slider_wrapper .os_heading_wraper h3 span,
 .os_inner_client_wrapper .os_heading_wraper h3 span{
@@ -6887,7 +6893,7 @@ keyframes movebounce {
 	margin-top: 30px;
 }
 .os_inner_hello_left_wrapper h3{
-    Color: #212121;
+    Color: #2c3c43;
     font-weight: 400;
 	font-family: "Rubik", Sans-serif;
     font-size: 16px;
@@ -6909,7 +6915,7 @@ keyframes movebounce {
 }
 .os_inner_about_start_tabs .nav-tabs .nav-link{
 	text-transform:capitalize;
-	color:#797979;
+	color:#2c3c43;
 	font-weight:400;
 }
 .os_inner_about_start_tabs .nav-tabs .nav-link.active, .os_inner_about_start_tabs .nav-tabs .nav-link:hover{
@@ -6918,10 +6924,10 @@ keyframes movebounce {
 	font-weight:400;
 }
 .os_inner_about_start_tabs .nav-tabs .nav-link:after{
-	border:2px solid #d82d34;
+	border:2px solid #fff559;
 }
 .os_inner_about_start_tabs .nav-tabs .nav-link.active:after{
-	border:2px solid #d82d34;
+	border:2px solid #a0f8ee;
 }
 .os_inner_about_start_tabs_content_box ul{
 	margin-top:30px;
@@ -6947,7 +6953,7 @@ keyframes movebounce {
 	margin-top:0;
 }
 .os_inner_about_start_tabs_content_box li i{
-	color:#d82d34;
+	color:#2c3c43;
 	    font-size: 27px;
 	float:left;
 	width:22px;
