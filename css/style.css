@@ -9886,7 +9886,7 @@ ul.breadcrumb li a {
 	background-color: #cd201f;
 }
 .find_on_smi{
-	background-image: linear-gradient(120deg, #dd2a7b 100%,#8134af 100%);
+	background-color: #dd2a7b;
 }
 .find_on_sm li a:hover .find_on_sm_overlay{
 	opacity: 1;
