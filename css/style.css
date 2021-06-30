@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6{
 	font-family: 'Poppins', sans-serif;
 	line-height: 1.1;
 	font-weight:400;
-	color: #111111;
+	color: #2c3c43;
 	margin:0;
 	padding:0;
 }
@@ -1008,7 +1008,7 @@ text-transform:capitalize;
 	font-size:15px;
 }
 .os_mega_menu_blog li a:hover{
-	color:#111;
+	color:#a0f8ee;
 }
 .os_mega_menu_blog ul{
 	margin-top:15px;
@@ -1283,7 +1283,7 @@ text-transform:capitalize;
     font-weight: 600;
     text-transform: uppercase;
     line-height: 30px;
-    color: #222222;
+    color: #2c3c43;
 }
 .os_parts_slider_img_cont p{
 	font-family: "Rubik", Sans-serif;
@@ -1292,7 +1292,7 @@ text-transform:capitalize;
     line-height: 26px;
     letter-spacing: -0.1px;
     margin-top: 20px;
-	color: #0c0c0c;
+	color: #2c3c43;
 }
 .os_parts_slider_img_cont{
 	text-align:center;
@@ -1305,7 +1305,7 @@ text-transform:capitalize;
 }
 .bottom-effects{
 	    position: absolute;
-    width: 81%;
+    width: 40%;
     height: 301px;
     background: #bdbdbd;
     left: 0;
@@ -1339,22 +1339,22 @@ text-transform:capitalize;
 }
 @-webkit-keyframes pulse {
   to {
-    box-shadow: 0 0 0 80px rgba(232, 76, 61, 0);
+    box-shadow: 0 0 0 40px rgba(232, 76, 61, 0);
   }
 }
 @-moz-keyframes pulse {
   to {
-    box-shadow: 0 0 0 80px rgba(232, 76, 61, 0);
+    box-shadow: 0 0 0 40px rgba(232, 76, 61, 0);
   }
 }
 @-ms-keyframes pulse {
   to {
-    box-shadow: 0 0 0 80px rgba(232, 76, 61, 0);
+    box-shadow: 0 0 0 40px rgba(232, 76, 61, 0);
   }
 }
 @keyframes pulse {
   to {
-    box-shadow: 0 0 0 80px rgba(232, 76, 61, 0);
+    box-shadow: 0 0 0 40px rgba(232, 76, 61, 0);
   }
 }
 .gallery-btn-link{
@@ -6543,7 +6543,11 @@ keyframes movebounce {
 	line-height: 25px;
 	margin: 0px 0px 15px 0px;
 }
+.os_inner_hello_wrapper p span{
+	font-weight: 600;
+}
 .os_inner_hello_right_wrapper h4{
+	color: #2c3c43;
 	font-weight: 500;
 	font-size: 17px;
 	line-height: 30px;
@@ -6570,7 +6574,7 @@ keyframes movebounce {
     -moz-transition: all 200ms ease-in;
     transition: all 200ms ease-in;
 }
-.os_inner_about_slider .owl-theme .owl-nav{
+.os_inner_about_slider .owl-theme .owl-nav:after{
 	display: none !important;
 }
 .os_inner_about_slider .owl-theme .owl-dots{
@@ -6972,6 +6976,9 @@ keyframes movebounce {
 	font-size: 16px;
     font-weight: 400;
     line-height: 28px;
+}
+.os_inner_about_start_tabs_content_box p span{
+    font-weight: 600;
 }
 .os_inner_about_start_title_heading{
 	padding-bottom:60px;
@@ -9878,8 +9885,8 @@ ul.breadcrumb li a {
 .find_on_smy{
 	background-color: #cd201f;
 }
-.find_on_sml{
-	background-color: #0077b5;
+.find_on_smi{
+	background-image: linear-gradient(120deg, #dd2a7b 100%,#8134af 100%);
 }
 .find_on_sm li a:hover .find_on_sm_overlay{
 	opacity: 1;
