@@ -297,6 +297,14 @@ ul{
 }
 #status img {
 }
+.float_none{
+	background-position: center center;
+	left: 0;
+	right: 0;
+	position: center;
+	float:  none;
+	width: 100%;
+}
 .float_left{
 	float:left;
 	width:100%;
@@ -427,7 +435,7 @@ ul{
   max-height: 0;
   opacity: 0;
   overflow: hidden;
-  position:absolute;
+  position:relative;
   top:100%;
   -webkit-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.10);
     -moz-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.10);
@@ -820,7 +828,7 @@ text-transform:capitalize;
 	    padding-top: 26px;
 }
 .drop_mega_menu{
-	position:absolute;
+	position:relative;
 	width:100%;
 	left:0;
 	right:0;
