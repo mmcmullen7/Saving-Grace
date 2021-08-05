@@ -435,7 +435,7 @@ ul{
   max-height: 0;
   opacity: 0;
   overflow: hidden;
-  position:relative;
+  position:top;
   top:100%;
   -webkit-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.10);
     -moz-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.10);
